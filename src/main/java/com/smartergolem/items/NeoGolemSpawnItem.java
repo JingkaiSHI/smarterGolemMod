@@ -1,4 +1,4 @@
-package com.smartergolem.entity;
+package com.smartergolem.items;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionResult;

@@ -1,7 +1,7 @@
 package com.smartergolem.mod;
 
 import com.mojang.logging.LogUtils;
-import net.minecraft.client.Minecraft;
+import com.smartergolem.items.ModItems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -24,6 +24,9 @@ public class SmarterGolemMod {
 
     public SmarterGolemMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        // register the mod items
+        ModItems.registerItems(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
