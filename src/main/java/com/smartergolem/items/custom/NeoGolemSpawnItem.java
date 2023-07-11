@@ -1,4 +1,4 @@
-package com.smartergolem.items;
+package com.smartergolem.items.custom;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionResult;

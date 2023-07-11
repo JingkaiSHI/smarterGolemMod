@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "smartergolem:block/core_of_intelligence_block"
+  }
+}

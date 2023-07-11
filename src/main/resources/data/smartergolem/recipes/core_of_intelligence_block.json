@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "E": {
+      "item": "minecraft:iron_ingot"
+    },
+    "X": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "EXE",
+    "X#X",
+    "EXE"
+  ],
+  "result": {
+    "item": "smartergolem:core_of_intelligence_block"
+  }
+}
